@@ -52,11 +52,24 @@ for(i = 0; i < pessoaArray.length; i++) {
 
 console.log(pessoaArray)
 
-// 2- For in => funciona tanto pra Array quanto para Objeto
+// 2- For in => funciona tanto pra Array quanto para Objeto!
 
 var pessoa = pessoaArray[0]
 
-for(var x in pessoa) {
+for(var x in pessoa) { // X no caso, é o interador, ex: 0, 1, 2
     console.log(pessoa[x])
 }
 
+// 3 - For of => FFuncionaa tanto para Array quanto para String
+
+var nomePessoa1 = pessoaArray[1].nome
+
+for(p of pessoaArray) { // P é varialvel, no caso, objeto da pessoa dentro do Array
+    console.log(p)
+}
+
+// paaraa strings:
+
+for(c of nomePessoa1) {
+    console.log(c) // imprime todos os caracteres das strings
+}

@@ -73,3 +73,13 @@ for(p of pessoaArray) { // P é varialvel, no caso, objeto da pessoa dentro do A
 for(c of nomePessoa1) {
     console.log(c) // imprime todos os caracteres das strings
 }
+
+
+// 4 - While e Do While
+
+var i = 0;
+
+do {
+  console.log(pessoaArray[i])
+  i++;
+} while(i < pessoaArray.length) // enquanto a condição for verdadeira, execute

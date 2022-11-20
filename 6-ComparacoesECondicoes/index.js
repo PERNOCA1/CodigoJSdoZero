@@ -15,7 +15,7 @@
 */
 
 
-const pessoaArray = [
+var pessoaArray = [
     {
         nome: 'Alessandra',
         idade: 40,
